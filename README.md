@@ -6,8 +6,11 @@ I needed something to install tools quickly after a new fresh OS install.
 
 This branch is tailored for the disco releases of Ubuntu.
 
+The malware-analysis.yml is tailored for windows 10.
+
 ## Testing
 This has been tested on disco 19.04.
+And also tested on the Windows 10 machine.
 
 ### Dependencies
 Packages to be installed prior to running the playbooks.
