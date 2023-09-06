@@ -41,3 +41,8 @@ Run playbook and all install tools to localhost:
 ```bash
 $ sudo ansible-playbook play_apt.yml
 ```
+Run the playbook with specific host and install malware-analysis tools
+(Before launch the play-book please update the host.yml file and also add ssh prive key file into the ssh-creds folder  )
+```bash
+$ sudo ANSIBLE_HOST_KEY_CHECKING=False ansible-playbook -i host.yml malware-analysis.yml  
+```

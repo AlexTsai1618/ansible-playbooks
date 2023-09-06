@@ -1,3 +1,4 @@
 # Ignore .retry files
 *.retry
 *.swp
+./ssh-creds/*

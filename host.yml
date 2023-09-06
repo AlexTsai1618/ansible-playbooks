@@ -1,0 +1,8 @@
+windows:
+  hosts:
+    192.168.1.170:
+  vars:
+    ansible_connection: ssh
+    ansible_user: your_user
+    ansible_password: your_password
+    ansible_port: 22
